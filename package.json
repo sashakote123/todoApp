@@ -1,6 +1,7 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
+  "homepage": "https://sashakote123.github.io/todoApp",
   "description": "",
   "main": "index.js",
   "settings": {
@@ -15,7 +16,8 @@
     "lint:styles": "stylelint ./src/**/*.css",
     "fix:styles": "stylelint --fix ./src/**/*.css",
     "lint:ts": "eslint src/**/*.{ts,tsx}",
-    "fix:ts": "eslint src/**/*.{ts,tsx} --quiet --fix"
+    "fix:ts": "eslint src/**/*.{ts,tsx} --quiet --fix",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -49,6 +51,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.28.0",
     "fork-ts-checker-webpack-plugin": "7.2.11",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "5.5.0",
     "husky": "8.0.1",
     "image-minimizer-webpack-plugin": "3.2.3",

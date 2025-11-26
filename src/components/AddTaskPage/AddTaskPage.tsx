@@ -89,7 +89,7 @@ const AddTaskPage: React.FC<Props> = ({ type }) => {
             <button className={styles.addTaskBtn} type="submit">
               {type === 'add' ? 'Создать задачу' : 'Сохранить изменения'}
             </button>
-            <button onClick={handleCancel} className={styles.cancel} type="submit">
+            <button onClick={handleCancel} className={styles.cancel} type="button">
               Отменить
             </button>
           </div>
