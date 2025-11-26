@@ -1,0 +1,174 @@
+.taskInfo {
+    border-radius: 24px;
+    padding: 20px 16px;
+    background-color: white;
+    box-shadow: 0 8px 12px 8px rgba(203, 203, 203, 0.25);
+    width: 37%;
+
+    position: sticky;
+    top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-self: flex-start;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1200px) {
+    .taskInfo {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .taskInfo {
+        width: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.closeBtn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.closeBtn svg {
+    width: 150%;
+    height: 150%;
+}
+
+.taskID {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    opacity: 0.7;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+
+    margin-bottom: 15px;
+}
+
+.info {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+
+    margin-bottom: 15px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 90%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.completeBox {
+    border-radius: 16px;
+    background-color: #d6f5df;
+    color: #30cd60;
+    margin-bottom: 15px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 10px;
+}
+
+.completeBox svg {
+    position: relative;
+    top: -1px;
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.editBtn {
+    border-radius: 16px;
+    background: #ffa940;
+    border: none;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    flex: 0 0 50%;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 10px;
+    color: #ffeed9;
+}
+
+.editBtn:hover {
+    background: #e6983a;
+    color: #ffeed9;
+}
+
+.deleteBtn {
+    border-radius: 16px;
+    background: #da4343;
+    border: none;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    flex: 0 0 50%;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 10px;
+    color: #f8d9d9;
+}
+
+.deleteBtn:hover {
+    background: #c43c3c;
+    color: #f8d9d9;
+}
+
+.confirmDeleteBtn {
+    border-radius: 16px;
+    background: #6d2222;
+    border: none;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    flex: 0 0 50%;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 10px;
+    color: #f8d9d9;
+}

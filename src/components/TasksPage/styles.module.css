@@ -1,0 +1,18 @@
+.tasksPage {
+    margin: 0 auto;
+
+    padding: 20px;
+
+    background: #f5f4fd;
+}
+
+.tasksSection {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .tasksSection {
+        flex-direction: column-reverse;
+    }
+}

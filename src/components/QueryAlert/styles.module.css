@@ -1,0 +1,49 @@
+.alert {
+    left: 0;
+    bottom: 0;
+
+    position: fixed;
+    padding: 15px 20px;
+
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 100;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.alert.show {
+    animation: slideInOut 2s ease-in-out forwards;
+}
+
+@keyframes slideInOut {
+    0% {
+        left: -100%;
+    }
+    20% {
+        left: 0;
+    }
+    80% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+.sucsess {
+    background-color: #30cd60;
+    color: #d6f5df;
+}
+
+.alert2 {
+    background-color: #ffa940;
+    color: #ffeed9;
+}
+
+.error {
+    background-color: #da4343;
+    color: #f8d9d9;
+}

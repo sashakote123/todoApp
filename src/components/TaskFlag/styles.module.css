@@ -1,0 +1,16 @@
+.flag {
+    border-radius: 12px;
+    padding: 4px 12px;
+    width: 77px;
+    height: 28px;
+    background: linear-gradient(180deg, #ff6574 0%, #e46975 100%);
+
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
